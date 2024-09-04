@@ -1,0 +1,12 @@
+---
+title: Infinitely learning blog
+subtitle: My journey Deep learning, Machine learning, Reinforcement Learning, or any other type of learning.
+listing:
+  sort: "date desc"
+  contents: "posts"
+  sort-ui: false
+  filter-ui: false
+  categories: true
+  feed: true
+page-layout: full
+---

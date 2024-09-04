@@ -3,9 +3,10 @@ project:
 
 format:
   html:
-    theme: cosmo
+    theme: lux
     css: styles.css
     toc: true
+    toc-depth: 4
     keep-md: true
   commonmark: default
 
@@ -16,7 +17,20 @@ website:
   navbar:
     background: primary
     search: true
+    collapse-below: lg
+    left:
+      - text: "Blog"
+        href: blog/index.qmd
+    right:
+      - icon: github
+        href: "https://github.com/infinitelylearn"
+      - icon: twitter
+        href: https://twitter.com/infinitelylearn
+        aria-label: Infinitely Learn X
   sidebar:
     style: floating
+    contents:
+      - auto: "/*.ipynb"
+  
 
 metadata-files: [nbdev.yml, sidebar.yml]
