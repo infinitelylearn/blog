@@ -1,0 +1,11 @@
+name: blog
+channels:
+  - fastai
+  - conda-forge
+dependencies:
+    - pip
+    - python
+    - jupyterlab
+    - nbdev
+    - pip:
+      - jupyterlab-quarto
