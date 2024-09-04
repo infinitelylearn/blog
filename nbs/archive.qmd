@@ -8,6 +8,4 @@ listing:
   type: default
   fields: [date, title, categories]
   sort: 'date desc'
-  filter: 
-    categories: [test]
 ---
