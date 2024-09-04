@@ -5,6 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://infinitelylearn.github.io',
                 'git_url': 'https://github.com/infinitelylearn/blog',
                 'lib_path': 'blog'},
-  'syms': { 'blog.core': {'blog.core.foo': ('posts/2024-09-04-test/index.html#foo', 'blog/core.py')},
+  'syms': { 'blog.core': {'blog.core.foo': ('posts/2024-09-03-test/index.html#foo', 'blog/core.py')},
             'blog.test': { 'blog.test.foo': ('test.html#foo', 'blog/test.py'),
                            'blog.test.say_hello': ('test.html#say_hello', 'blog/test.py')}}}
