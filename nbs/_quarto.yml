@@ -15,8 +15,6 @@ website:
   site-url: https://infinitelylearn.github.io/blog
   description: "my journey Deep learning, Machine learning, Reinforcement Learning, and any other type of learning"
   image: "/images/tris-card.jpg"
-  creator: "@infinitelylearn"
-  site: "@infinitelylearn"
   twitter-card: true
   open-graph: true
   navbar:
