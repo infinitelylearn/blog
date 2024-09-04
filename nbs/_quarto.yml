@@ -9,28 +9,30 @@ format:
     toc-depth: 4
     keep-md: true
   commonmark: default
-
+  
 website:
+  title: "Infinitely Learn"
+  site-url: https://infinitelylearn.github.io/blog
+  description: "my journey Deep learning, Machine learning, Reinforcement Learning, and any other type of learning"
+  image: "/images/tris-card.jpg"
+  description: "an AI researcher going back to school for immunology"
+  creator: "@infinitelylearn"
+  site: "@infinitelylearn"
   twitter-card: true
   open-graph: true
-  repo-actions: [issue]
   navbar:
-    background: primary
-    search: true
-    collapse-below: lg
-    left:
-      - text: "Blog"
-        href: blog/index.qmd
     right:
-      - icon: github
-        href: "https://github.com/infinitelylearn"
+      - text: About
+        href: about.qmd
       - icon: twitter
-        href: https://twitter.com/infinitelylearn
-        aria-label: Infinitely Learn X
-  sidebar:
-    style: floating
-    contents:
-      - auto: "/*.ipynb"
-  
-
+        href: https://twitter.com/math_rachel
+      - icon: linkedin
+        href: https://www.linkedin.com/in/rachel-thomas-942a7923/
+      - icon: youtube
+        href: https://www.youtube.com/playlist?list=PLtmWHNX-gukLQlMvtRJ19s7-8MrnRV6h6
+      - icon: rss
+        href: index.xml
+      - text: Archive
+        href: archive.qmd  
+        
 metadata-files: [nbdev.yml, sidebar.yml]
