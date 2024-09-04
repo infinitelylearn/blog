@@ -15,23 +15,14 @@ website:
   site-url: https://infinitelylearn.github.io/blog
   description: "my journey Deep learning, Machine learning, Reinforcement Learning, and any other type of learning"
   image: "/images/tris-card.jpg"
-  description: "an AI researcher going back to school for immunology"
   creator: "@infinitelylearn"
   site: "@infinitelylearn"
   twitter-card: true
   open-graph: true
   navbar:
     right:
-      - text: About
-        href: about.qmd
-      - icon: twitter
-        href: https://twitter.com/math_rachel
-      - icon: linkedin
-        href: https://www.linkedin.com/in/rachel-thomas-942a7923/
-      - icon: youtube
-        href: https://www.youtube.com/playlist?list=PLtmWHNX-gukLQlMvtRJ19s7-8MrnRV6h6
-      - icon: rss
-        href: index.xml
+      - icon: X (twitter)
+        href: https://twitter.com/infinitelylearn
       - text: Archive
         href: archive.qmd  
         
