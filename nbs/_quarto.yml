@@ -27,4 +27,7 @@ website:
       - text: Archive
         href: archive.qmd  
 
+resources:
+  - CNAME
+
 metadata-files: [nbdev.yml]
