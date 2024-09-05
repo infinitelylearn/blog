@@ -12,7 +12,7 @@ format:
   
 website:
   title: "Infinitely Learn"
-  site-url: https://infinitelylearn.github.io/blog
+  site-url: https://infinitelylearn.com
   description: "my journey Deep learning, Machine learning, Reinforcement Learning, and any other type of learning"
   image: "/images/tris-card.jpg"
   twitter-card: true

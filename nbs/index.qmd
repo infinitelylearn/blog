@@ -1,5 +1,5 @@
 ---
-title: Infinitely learning
+title: Infinitely learn
 subtitle: my journey Deep learning, Machine learning, Reinforcement Learning, or any other type of learning.
 listing:
   contents: posts

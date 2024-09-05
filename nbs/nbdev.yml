@@ -4,6 +4,6 @@ project:
 website:
   title: "blog"
   site-url: "https://infinitelylearn.github.io/blog"
-  description: "Ininitely learning blog"
+  description: "Ininitely learn"
   repo-branch: main
   repo-url: "https://github.com/infinitelylearn/blog"
