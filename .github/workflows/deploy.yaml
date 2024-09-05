@@ -8,6 +8,7 @@ on:
   push:
     branches: [ "main", "master" ]
   workflow_dispatch:
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -16,4 +17,11 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '20'
+      - name: Copy CNAME file
+        run: |
+          # Make sure to place the CNAME in the correct location before deployment
+          echo "infinitelylearn.com" > CNAME  # Create or overwrite the CNAME file
       - uses: fastai/workflows/quarto-ghp@master
+        with:
+          target_branch: gh-pages  # Ensure this matches your deployment branch
+          keep_files: true         # Optional: keeps existing files, ensuring CNAME isn't removed
