@@ -9,19 +9,22 @@ format:
     toc-depth: 4
     keep-md: true
   commonmark: default
-  
+
 website:
   title: "Infinitely Learn"
   site-url: https://infinitelylearn.com
-  description: "my journey Deep learning, Machine learning, Reinforcement Learning, and any other type of learning"
+  description: "My journey into Deep Learning, Machine Learning, Reinforcement Learning, and any other type of learning"
   image: "/images/tris-card.jpg"
   twitter-card: true
   open-graph: true
   navbar:
+    left:
+      - text: "Infinitely Learn"
+        href: index.qmd
     right:
-      - icon: X (twitter)
+      - icon: twitter
         href: https://twitter.com/infinitelylearn
       - text: Archive
         href: archive.qmd  
-        
+
 metadata-files: [nbdev.yml]
