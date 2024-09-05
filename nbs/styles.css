@@ -35,3 +35,11 @@ div.description {
   font-size: 135%;
   opacity: 70%;
 }
+
+.quarto-title-banner {
+    background: #0469c1;
+}
+
+#quarto-header {
+    background-color: #0469c1;
+}

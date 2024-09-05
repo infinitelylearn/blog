@@ -18,9 +18,6 @@ website:
   twitter-card: true
   open-graph: true
   navbar:
-    left:
-      - text: "Infinitely Learn"
-        href: index.qmd
     right:
       - icon: twitter
         href: https://twitter.com/infinitelylearn
